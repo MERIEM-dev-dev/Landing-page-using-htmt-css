@@ -1,0 +1,320 @@
+/* travail réaliser par Mouad Belghazi et Meriem Ahouzi */
+
+body
+{
+	margin: 0%;
+}
+
+/*l'en tête de la page*/
+
+.navig
+{
+    list-style-type: none;
+    display: flex;
+    position: relative;
+    left: 150px;
+    bottom:35px;
+
+
+}
+.navig li
+{
+
+	padding: 10px;
+    margin: 10px;
+    color: white;
+    font-family: sans-serif;
+}
+header
+{
+	background-color: #f38e59;
+	height: 430px;
+	
+}
+
+
+#logo
+{
+	position: relative;
+	left: 40px;
+	top: 30px;
+
+}
+
+
+#b1
+{
+	color: white;
+	background-color: rgb(2, 32, 47);
+	font-size: 10px;
+	position: relative;
+	left: 1040px;
+	bottom: 105px;
+	padding: 15px;
+	padding-left :40px;
+	padding-right: 40px;
+	border-radius: 5px;
+	font-weight: bold;
+	text-transform: capitalize;
+	font-family: sans-serif;
+}
+#b2
+{
+	display: inline-block;
+	color: white;
+	border:2px solid;
+	border-radius: 10px;
+	font-size: 10px;
+	position: relative;
+	left: 1050px;
+	bottom: 105px;
+	padding:15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+.contact
+{
+	text-align: center;
+	font-family: sans-serif;
+	color: white;
+	font-size: 4em;
+
+}
+.our
+{
+	text-align: center;
+	font-family: sans-serif;
+	color: #333;
+}
+
+/*le formulaire et le service client*/
+
+.sec1
+{
+	float: left;
+	height: auto;
+   width:45%;
+}
+.sec2
+{
+	float: left;
+	height: auto;
+	width: 45%;
+	margin-left: 100px;
+	
+}
+input 
+{
+	border-radius: 0.4rem;
+    transition: all 0.15s ease;
+	font: 300 1em/1.35rem "proxima-nova", sans-serif;
+    color: #7F8C97;
+    padding: .6rem .8rem;
+    border: 1px solid #C0C6CC;
+    background: #fff;
+    margin: 20px;
+    width: 90%;
+}
+textarea
+{
+	border-radius: 0.4rem;
+    transition: all 0.15s ease;
+	font: 300 1em/1.35rem "proxima-nova", sans-serif;
+    color: #7F8C97;
+    padding: .6rem .8rem;
+    border: 1px solid #C0C6CC;
+    background: #fff;
+    margin: 20px;
+    width: 90%;
+}
+.REACH
+{
+	color:black;
+	font-size: 1.9em;
+    font-family: sans-serif;
+    margin-left: 20px;
+    margin-top: 90px;
+
+}
+.GOT
+{
+	color: #333;
+	    line-height: 140%;
+    font-size: 1.2em;
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+.btn1
+{
+	background-color: #F49B6C;
+	border:none;
+	border-radius: 0.4rem;
+    font-size: 80%;
+    line-height: 80%;
+    padding: 1.6rem 3.3rem 1.5rem;
+    float: right;
+    font: "proxima-nova", sans-serif;
+    color: white;
+
+}
+.care
+{
+	color:black;
+	font-size: 1.9em;
+    font-family: sans-serif;
+    margin-left: 20px;
+    margin-top: 90px;
+}
+.man
+{
+	border-radius: 50%;
+	border:none;
+	width: 80px;
+	margin: 20px;
+}
+.women
+{
+	border-radius: 50%;
+	border:none;
+	width: 80px;
+	margin: 20px;
+}
+div
+{
+	display: flex;
+
+}
+.Customer
+{
+	
+	flex: 0 0 100%;
+    margin-left: auto;
+    font-family: sans-serif;
+    color: #333;
+}
+.org
+{
+	color: #F49B6C;
+}
+
+.icon
+{
+	margin-right: 30px;
+	margin-top: 20px;
+
+}
+
+/*Le pied de page */
+
+footer
+{
+	position: absolute;
+	top: 1300px;
+	background-color: #404040;
+	width:100%;
+
+}
+.cop
+{
+	background-color: #333;
+	height: 50px;
+}
+.cop2
+{
+	position: relative;
+	left: 100px;
+	font-family: sans-serif;
+	color: rgba(255, 255, 255, 0.6)
+	
+}
+.cop3
+{
+	color: #F49B6C;
+	font-family: sans-serif;
+}
+h5
+{
+	
+    display: inline;
+    position: relative;
+    left: 80px;
+    top:30px;
+    padding: 10px;
+    margin-right: 200px;
+    color: white;
+    font-family: sans-serif;
+
+
+}
+.li1 
+{
+	
+    
+    position: relative;
+    left: 40px;
+    top:30px;
+    padding: 10px;
+    margin-right: 100px;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: sans-serif;
+    display: inline-block;
+}
+
+.li1 li
+{
+	list-style-type: none;
+}
+#li1
+{
+	position: relative;
+	left:-15px;
+	top: -45px;
+}
+#li2
+{
+	position: relative;
+	left: 65px;
+	top : -65px;
+}
+#li3
+{
+	position: relative;
+	left: 845px;
+	top: -200px;
+}
+.li2
+{
+	position: relative;
+	left: 690px;
+	top: -70px;
+	color: white;
+	font-family: sans-serif;
+	font-size: 13px bold;
+}
+.icon2
+{
+	width: 22px;
+	height: 25px;
+	margin-left: 7px;
+	position: relative;
+	left: 720px;
+	top: -120px;
+
+}
+.btn2
+{
+	background-color: #F49B6C;
+	border:none;
+	border-radius: 0.4rem;
+    font-size: 90% ;
+    line-height: 80%;
+    padding: 1.6rem 3.3rem 1.5rem;
+    font: "proxima-nova", sans-serif;
+    color: white;
+	position: relative;
+    left: 550px;
+    top: -120px;
+	width: 200px;
+}
